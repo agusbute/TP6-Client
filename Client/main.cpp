@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 
 bool ip_path_validation(string * str, char ** ip, char ** path)
 {
-	int counter = 0;
+	unsigned int counter = 0;
 	size_t stringSize = (*str).size();
 	for (int i = 0; i <stringSize; i++)
 	{
